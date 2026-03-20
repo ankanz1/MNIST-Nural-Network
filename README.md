@@ -441,6 +441,35 @@ input_units = 784     # 28×28 image dimensions
 | `hidden_units` | 10 | 32-128 | ↑ capacity (slower) |
 
 ---
+## Output
+
+```python
+test_prediction(0, W1, b1, W2, b2)
+test_prediction(1, W1, b1, W2, b2)
+test_prediction(2, W1, b1, W2, b2)
+test_prediction(3, W1, b1, W2, b2)
+```
+
+Prediction:  [4]
+Label:  4
+<img width="251" height="248" alt="image" src="https://github.com/user-attachments/assets/2b67794b-e261-485d-b75a-7b84f3aa4f51" />
+
+Prediction:  [8]
+Label:  8
+<img width="251" height="248" alt="image" src="https://github.com/user-attachments/assets/4f8a7870-79c9-428d-b4e1-af548261b6ed" />
+
+Prediction:  [6]
+Label:  6
+<img width="251" height="248" alt="image" src="https://github.com/user-attachments/assets/51812098-259b-4dd5-bfb7-e2f9e948e316" />
+
+Prediction:  [7]
+Label:  7
+<img width="251" height="248" alt="image" src="https://github.com/user-attachments/assets/6dcf5e9f-ec01-4c15-8dbe-7011edbd6852" />
+
+
+
+
+---
 
 ## 🔮 Future Enhancements
 
@@ -496,29 +525,8 @@ Ways to contribute:
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** - free for educational and personal use.
-
----
-
-## 🙏 Acknowledgments
-
-- **MNIST Dataset**: Yann LeCun's handwritten digits database
-- **Mathematical Foundations**: Deep Learning course materials
-- **Kaggle**: Digit Recognizer competition platform
-
----
-
-## 📧 Contact & Questions
-
-For questions or suggestions about this implementation, refer to the comments within the notebook code.
-
----
-
 <div align="center">
 
-**Made with ❤️ for Machine Learning Education**
 
 ⭐ If you found this helpful, consider starring the repository!
 
@@ -537,7 +545,3 @@ For questions or suggestions about this implementation, refer to the comments wi
 - [MNIST Database](http://yann.lecun.com/exdb/mnist/)
 
 ---
-
-**Last Updated**: March 2026  
-**Python Version**: 3.8+  
-**NumPy Version**: 1.19.0+
