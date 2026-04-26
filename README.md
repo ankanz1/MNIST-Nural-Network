@@ -4,7 +4,6 @@
 
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-brightgreen)]()
 [![NumPy](https://img.shields.io/badge/Dependencies-NumPy-blue)]()
-[![License](https://img.shields.io/badge/License-MIT-orange)]()
 [![Accuracy](https://img.shields.io/badge/Accuracy-~85%25-success)]()
 
 **A Deep Dive into Artificial Neural Networks: Building an MNIST Classifier From First Principles**
